@@ -5,8 +5,8 @@ export const products: Product[] = [
   // Fragrances
   {
     id: 1,
-    name: 'Floral Eau de Parfum 1',
-    price: 166,
+    name: 'DG Perfumes',
+    price: 1660,
     originalPrice: 0,
     discount: 0,
     image: 'https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg',
@@ -18,31 +18,31 @@ export const products: Product[] = [
   },
   {
     id: 2,
-    name: 'Floral Eau de Parfum 7',
-    price: 33,
+    name: 'ZARA Perfume',
+    price: 3300,
     originalPrice: 0,
     discount: 0,
-    image: 'https://images.pexels.com/photos/965990/pexels-photo-965990.jpeg',
+    image: 'https://thefragrancebook.com/cdn/shop/products/naoCbaMA_1.jpg?v=1677073812&width=640',
     size: '30ml',
     color: 'Woody',
-    category: 'Fragrances'
+    category: 'Fragrances for mens'
   },
   {
     id: 3,
-    name: 'Floral Eau de Parfum 8',
-    price: 53,
+    name: 'Ferrero Rocher Premium Chocolates',
+    price: 500,
     originalPrice: 0,
     discount: 0,
-    image: 'https://images.pexels.com/photos/4110099/pexels-photo-4110099.jpeg',
-    size: '100ml',
+    image: 'https://m.media-amazon.com/images/I/71AXI2jyj+L._SX679_.jpg',
+    size: '300 g',
     color: 'Floral',
-    category: 'Fragrances'
+    category: 'Chocolate'
   },
   {
     id: 4,
-    name: 'Floral Eau de Parfum 9',
-    price: 81,
-    originalPrice: 102,
+    name: 'Channel Perfume',
+    price: 580,
+    originalPrice: 702,
     discount: 21,
     image: 'https://images.pexels.com/photos/755992/pexels-photo-755992.jpeg',
     size: '100ml',
@@ -51,24 +51,24 @@ export const products: Product[] = [
   },
   {
     id: 5,
-    name: 'Floral Eau de Parfum 10',
-    price: 108,
-    originalPrice: 128,
+    name: 'L Oreal Paris Makeup',
+    price: 128,
+    originalPrice: 328,
     discount: 16,
-    image: 'https://images.pexels.com/photos/4110337/pexels-photo-4110337.jpeg',
+    image: 'https://m.media-amazon.com/images/I/711BkLez67L._SY355_.jpg',
     size: '100ml',
-    color: 'Floral',
-    category: 'Fragrances'
+    color: 'Skin',
+    category: 'Makeup'
   },
   
   // Luggage
   {
     id: 6,
-    name: 'Luggage Set 9',
-    price: 208,
+    name: 'Luggage Sets 3 Piece',
+    price: 2208,
     originalPrice: 0,
     discount: 0,
-    image: 'https://images.pexels.com/photos/2385477/pexels-photo-2385477.jpeg',
+    image: 'https://m.media-amazon.com/images/I/71J6b7pMuCL._AC_SY355_.jpg',
     size: 'Tote',
     color: 'White',
     category: 'Luggage',
@@ -78,7 +78,7 @@ export const products: Product[] = [
   {
     id: 7,
     name: 'Travel Pouch 11',
-    price: 38,
+    price: 838,
     originalPrice: 0,
     discount: 0,
     image: 'https://images.pexels.com/photos/1294731/pexels-photo-1294731.jpeg',
@@ -88,55 +88,55 @@ export const products: Product[] = [
   },
   {
     id: 8,
-    name: 'Laptop Bag 9',
-    price: 42,
+    name: 'MacBook Pro 16 2025',
+    price: 70000,
     originalPrice: 0,
     discount: 0,
-    image: 'https://images.pexels.com/photos/1231365/pexels-photo-1231365.jpeg',
+    image: 'https://m.media-amazon.com/images/I/61deE7h80HL._AC_SX569_.jpg',
     size: 'Suitcase',
     color: 'Black',
-    category: 'Luggage'
+    category: 'Laptop'
   },
   
-  // Fragrances continued
+  // Electronic continued
   {
     id: 9,
-    name: 'Spicy Aroma 10',
-    price: 25,
+    name: 'Apple iPhone 15 Pro Max, 256GB',
+    price: 120250,
     originalPrice: 0,
     discount: 0,
-    image: 'https://images.pexels.com/photos/2827392/pexels-photo-2827392.jpeg',
-    size: '30ml',
-    color: 'Woody',
-    category: 'Fragrances'
+    image: 'https://i.guim.co.uk/img/media/18badfc0b64b09f917fd14bbe47d73fd92feeb27/189_335_5080_3048/master/5080.jpg?width=480&dpr=1&s=none&crop=none',
+    size: '256GB',
+    color: 'White',
+    category: 'Phone'
   },
   {
     id: 10,
-    name: 'Golden Dawn 8',
-    price: 80,
+    name: 'Samsung Galaxy S24 Ultra8',
+    price: 120800,
     originalPrice: 0,
     discount: 0,
-    image: 'https://images.pexels.com/photos/3050729/pexels-photo-3050729.jpeg',
-    size: '100ml',
-    color: 'Spicy',
-    category: 'Fragrances'
+    image: 'https://img2.gadgetsnow.com/gd/images/products/additional/large/G507113_View_1/mobiles/smartphones/samsung-galaxy-s24-ultra-1-tb-titanium-gray-12-gb-ram-.jpg',
+    size: '1 TB',
+    color: 'Black',
+    category: 'Phone'
   },
   {
     id: 11,
-    name: 'Golden Dawn 9',
-    price: 79,
+    name: 'Fossil Men Watch',
+    price: 979,
     originalPrice: 0,
     discount: 0,
-    image: 'https://images.pexels.com/photos/3144214/pexels-photo-3144214.jpeg',
-    size: '100ml',
-    color: 'Floral',
-    category: 'Fragrances'
+    image: 'https://m.media-amazon.com/images/I/81I+az3TakL._AC_SX466_.jpg',
+    size: '50m',
+    color: 'brown',
+    category: 'watch'
   },
   {
     id: 12,
-    name: 'Golden Dawn 10',
+    name: 'Pine Forest',
     price: 205,
-    originalPrice: 0,
+    originalPrice: 205,
     discount: 0,
     image: 'https://images.pexels.com/photos/3270223/pexels-photo-3270223.jpeg',
     size: '50ml',
@@ -145,22 +145,22 @@ export const products: Product[] = [
   },
   {
     id: 13,
-    name: 'Golden Dawn 11',
-    price: 63,
-    originalPrice: 95,
+    name: 'COSORI Air Fryer 9-in-1',
+    price: 2563,
+    originalPrice: 5200,
     discount: 34,
-    image: 'https://images.pexels.com/photos/3144215/pexels-photo-3144215.jpeg',
-    size: '50ml',
-    color: 'Spicy',
-    category: 'Fragrances'
+    image: 'https://m.media-amazon.com/images/I/71RzDiZoAxL.__AC_SX300_SY300_QL70_FMwebp_.jpg',
+    size: '50kg',
+    color: 'Black',
+    category: 'Fryer'
   },
   {
     id: 14,
-    name: 'Golden Dawn 12',
-    price: 169,
-    originalPrice: 219,
+    name: 'VIZIO 32-inch HD Smart TV 720p LED',
+    price: 20000,
+    originalPrice: 21900,
     discount: 23,
-    image: 'https://images.pexels.com/photos/3144216/pexels-photo-3144216.jpeg',
+    image: 'https://m.media-amazon.com/images/I/81uVOWLKOxL._AC_SX425_.jpg',
     size: '30ml',
     color: 'Woody',
     category: 'Fragrances'
@@ -169,9 +169,9 @@ export const products: Product[] = [
   // Electronics
   {
     id: 15,
-    name: 'Smart Watch Pro',
-    price: 1299,
-    originalPrice: 1499,
+    name: 'Apple Smart Watch Pro',
+    price: 12990,
+    originalPrice: 14990,
     discount: 13,
     image: 'https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg',
     size: 'One Size',
@@ -182,9 +182,9 @@ export const products: Product[] = [
   },
   {
     id: 16,
-    name: 'Wireless Earbuds',
-    price: 899,
-    originalPrice: 1199,
+    name: 'Apple Airpods',
+    price: 9500,
+    originalPrice: 12000,
     discount: 25,
     image: 'https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg',
     size: 'One Size',
@@ -193,9 +193,9 @@ export const products: Product[] = [
   },
   {
     id: 17,
-    name: 'Portable Speaker',
-    price: 499,
-    originalPrice: 699,
+    name: 'Alexa',
+    price: 800,
+    originalPrice: 1099,
     discount: 29,
     image: 'https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg',
     size: 'Compact',
@@ -203,23 +203,23 @@ export const products: Product[] = [
     category: 'Electronics'
   },
   
-  // More fragrances
+  // More 
   {
     id: 18,
-    name: 'Ocean Breeze',
-    price: 120,
-    originalPrice: 150,
+    name: 'Acne Face Wash',
+    price: 420,
+    originalPrice: 650,
     discount: 20,
-    image: 'https://images.pexels.com/photos/2827393/pexels-photo-2827393.jpeg',
+    image: 'https://m.media-amazon.com/images/I/41oNQNFK6nL._SX300_SY300_QL70_FMwebp_.jpg',
     size: '75ml',
     color: 'Fresh',
-    category: 'Fragrances'
+    category: 'Wash'
   },
   {
     id: 19,
-    name: 'Midnight Essence',
-    price: 85,
-    originalPrice: 100,
+    name: 'rEnseck Perfume',
+    price: 850,
+    originalPrice: 1200,
     discount: 15,
     image: 'https://images.pexels.com/photos/3059609/pexels-photo-3059609.jpeg',
     size: '50ml',
@@ -228,14 +228,14 @@ export const products: Product[] = [
   },
   {
     id: 20,
-    name: 'Citrus Delight',
-    price: 65,
-    originalPrice: 0,
+    name: 'Sweater',
+    price: 655,
+    originalPrice: 655,
     discount: 0,
     image: 'https://images.pexels.com/photos/3270224/pexels-photo-3270224.jpeg',
-    size: '30ml',
-    color: 'Citrus',
-    category: 'Fragrances'
+    size: 'M',
+    color: 'White',
+    category: 'Cloth'
   },
   
   // More luggage
